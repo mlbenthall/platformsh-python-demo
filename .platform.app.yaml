@@ -36,8 +36,8 @@ disk: 512
 relationships:
     database: 'db:mysql'
 
-hooks:
-    build: pipenv install --system --deploy
+#hooks:
+#    build: pipenv install --system --deploy
 
 # Your app's configuration when it's exposed to the web.
 web:
